@@ -1,0 +1,12 @@
+services:
+  haskelleador:
+    build: .
+    container_name: Haskelleador
+    volumes:
+      - .:/code
+    stdin_open: true
+    tty: true
+    working_dir: /code
+
+
+
